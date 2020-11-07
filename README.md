@@ -4,4 +4,4 @@ Contoh Web PU
 
 #
 
-https://github.com/jun-git-id/SiFo-PU/issues/1#issue-738270359
+![db pu](https://user-images.githubusercontent.com/31401238/98446210-83f57780-214e-11eb-9ccf-99794d8f0279.PNG)
