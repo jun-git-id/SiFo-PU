@@ -1,0 +1,148 @@
+<!-- <div id="home" class="header text-white h-fullscreen  text-center text-lg-left" style="background-image: radial-gradient( circle 547px at 6.8% 40.8%,  rgba(85,141,175,1) 0%, rgba(29,77,113,1) 98.6% );">
+  <div class="container">
+    <div class="row align-items-center h-100"> !-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+<section id="demos" class="overflow-hidden">
+  <div class="row overflow-hidden">
+    <div class="large-8 columns overflow-hidden w-100">
+      <div class="owl-carousel owl-theme">
+
+
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+<main>
+  <!--
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      | Products
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      !-->
+  <section id="lity" class="section pb-0">
+    <div class="container">
+      <div class="row gap-y align-items-center">
+        <div class="col-lg-5 mr-auto">
+          <h2>Website Dinas Pekerjaan Umum </h2>
+          <br>
+          <p class="lead-2">Media penyebaran informasi dan komunikasi Dinas Pekerjaan Umum dan Penataan Ruang.</p>
+          <p></p>
+        </div>
+        <div class="col-lg-6">
+          <div class="gallery gallery-4-type4">
+            <a class="gallery-item" href="#">
+              <img src="<?php echo base_url(); ?>assets/img/bangunkereta.jpg" alt="..." data-provide="lightbox">
+            </a>
+            <div class="gallery-item-group">
+              <a class="gallery-item" href="#">
+                <img src="<?php echo base_url(); ?>assets/img/bangunjalan.jpg" alt="..." data-provide="lightbox">
+              </a>
+              <a class="gallery-item" href="#">
+                <img src="<?php echo base_url(); ?>assets/img/bangunjalan2.jpg" alt="..." data-provide="lightbox">
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-7 mr-auto offset-md-7 mb-6 col-sm-7 ml-auto">
+          <div class="text-center text-secondary">
+            <h1>
+              BIDANG
+            </h1>
+          </div>
+        </div>
+
+
+
+        <div class="row gap-y">
+          <div class="col-6 col-md-4 col-xl-4">
+            <a class="card card-body border hover-shadow-6 text-center py-6" href="<?= base_url('home/datapujalan') ?>">
+              <p style="color: #5edfff"><i class="fas fa-tint lead-7"></i></p>
+              <h6 class="mb-0"><strong>BIDANG SUMBER DAYA AIR</strong></h6>
+            </a>
+          </div>
+          <div class="col-6 col-md-4 col-xl-4">
+            <a class="card card-body border hover-shadow-6 text-center py-6" href="<?= base_url('home/datapujembatan') ?>">
+              <p style="color: #eb4a62"><i class="fas fa-archway lead-7"></i></p>
+              <h6 class="mb-0"><strong>BIDANG BINA MARGA</strong></h6>
+            </a>
+          </div>
+          <div class="col-6 col-md-4 col-xl-4">
+            <a class="card card-body border hover-shadow-6 text-center py-6" href="<?= base_url('home/datapuembung') ?>">
+              <p style="color: #f69a3e"><i class="fas fa-magic lead-7"></i></p>
+              <h6 class="mb-0"><strong>BIDANG CIPTA KARYA</strong></h6>
+            </a>
+          </div>
+          <div class="col-6 col-md-4 col-xl-4">
+            <a class="card card-body border hover-shadow-6 text-center py-6" href="<?= base_url('home/datapusumurbor') ?>">
+              <p style=" color: #c05c7e"><i class="fas fa-home lead-7"></i></p>
+              <h6 class="mb-0"><strong>BIDANG PENATAAN RUANG</strong></h6>
+            </a>
+          </div>
+          <div class="col-6 col-md-4 col-xl-4">
+            <a class="card card-body border hover-shadow-6 text-center py-6" href="<?= base_url('home/datapublackspot') ?>">
+              <p style=" color: #f0c93e"><i class="fas fa-wrench lead-7"></i></p>
+              <h6 class="mb-0"><strong>BIDANG JASA KONSTRUKSI</strong></h6>
+            </a>
+          </div>
+          <div class="col-6 col-md-4 col-xl-4">
+            <a class="card card-body border hover-shadow-6 text-center py-6" href="<?= base_url('home/datapuspam') ?>">
+              <p style="color: #736764"><i class="fas fa-graduation-cap lead-7"></i></p>
+              <h6 class="mb-0"><strong>SEKERTARIS DINAS</strong></h6>
+            </a>
+          </div>
+          <div class="col-6 col-md-4 col-xl-4">
+            <a class="card card-body border hover-shadow-6 text-center py-6" href="<?= base_url('home/datapupotensidanau') ?>">
+              <p style="color: #1656B5"><i class="fas fa-vial lead-7"></i></p>
+              <h6 class="mb-0"><strong>UPT LABORATURIUM</strong></h6>
+            </a>
+          </div>
+          <div class="col-6 col-md-4 col-xl-4">
+            <a class="card card-body border hover-shadow-6 text-center py-6" href="<?= base_url('home/datapupotensirawa') ?>">
+              <p style="color: #fcc54e"><i class="fas  fa-tint lead-7"></i></p>
+              <h6 class="mb-0"><strong>POTENSI RAWA</strong></h6>
+            </a>
+          </div>
+          <div class="col-6 col-md-4 col-xl-4">
+            <a class="card card-body border hover-shadow-6 text-center py-6" href="<?= base_url('home/datapuspam') ?>">
+              <p style="color: #6681fa"><i class="fas fa-exclamation-circle  lead-7"></i></p>
+              <h6 class="mb-0"><strong>POTENSI SUMUR BOR</strong></h6>
+            </a>
+          </div>
+        </div>
+
+        <br><br>
+
+      </div>
+  </section>
+</main>
+
+<script>
+  $(document).ready(function() {
+    var owl = $('.owl-carousel');
+    owl.owlCarousel({
+      loop: true,
+      // touchDrag: false,
+      dotClass: 'owl-dot',
+      dotsClass: 'owl-dots',
+      dots: true,
+      // mouseDrag: false,
+      autoplay: true,
+      autoplaySpeed: 1000,
+      autoplayTimeout: 7000,
+      animateOut: 'fadeOut',
+      animateIn: 'fadeOut',
+      items: 1
+    })
+  })
+</script>
